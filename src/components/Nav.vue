@@ -38,6 +38,26 @@ export default defineComponent({
           name: 'Axios',
           isActive: false,
           path: '/axios'
+        },
+        {
+          name: 'Goods',
+          isActive: false,
+          path: '/Goods'
+        },
+        {
+          name: 'setupDemo',
+          isActive: false,
+          path: '/setupDemo'
+        },
+        {
+          name: 'provideInject',
+          isActive: false,
+          path: '/provideInject'
+        },
+        {
+          name: 'ts',
+          isActive: false,
+          path: '/ts'
         }
       ],
       navClick(e: NavItem) {
